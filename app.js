@@ -14,6 +14,6 @@ const word = big => {
 const run = async () => {
 	const str = word(10+(Math.floor(Math.random()*max)))
 	console.log(str)
-	await setTimeout(run, 100)
+	await setTimeout(run, 50+Math.floor(Math.random()*400))
 }
 run()
