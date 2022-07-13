@@ -3,7 +3,7 @@ const min = 10
 const max = 70
 
 const word = big => {
-	const alpha = "abcdefghijklmnopqrstuvwxyz"
+	const alpha = "abcdefghijklmnopqrstuvwxyz-1234567890 "
 	let w = ""
 	for(let i=0; i<big; i++){
 		w += alpha.substr(Math.floor(Math.random()*alpha.length),1)
